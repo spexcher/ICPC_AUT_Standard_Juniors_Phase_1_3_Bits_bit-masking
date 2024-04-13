@@ -202,11 +202,6 @@ void solve()
     }
     if (x == 4)
     {
-      // if (n == INT_MIN)
-      // {
-      //   print(n);
-      //   continue;
-      // }
       n = (n & (n + 1));
       print(n);
     }
